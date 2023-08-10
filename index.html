@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box_container">
+            <h2>Auto Password Generator</h2>
+            <div class="input">
+                <span id="pass-box">Testing</span>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <label for="lenbox">Length</label>
+                </div>
+                <div class="right">
+                    <input type="number" id="lenbox" min="4" max="32" value="8">
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <label for="splbox">Special Character</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="splbox" >
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <label for="capitalbox">Capital Letter</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="capitalbox" >
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <label for="smallbox">Small Letter</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="smallbox" >
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <label for="numberbox">Number</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="numberbox" >
+                </div> 
+            </div>
+            <div class="btn">
+                <button type="submit" id="btn">Generate</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
